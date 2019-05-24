@@ -18,5 +18,6 @@ int main()
 	cin >> t;
 	float v = v0 + a * t;//van toc cua xe
 	cout << "Van toc cua xe = " << v << endl;		
+	return 0;
 }
 
