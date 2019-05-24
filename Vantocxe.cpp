@@ -8,11 +8,15 @@ using namespace std;
 
 int main()
 {
-	float v0, a;
-	unsigned int t;
-	cout << " Nhap gia tri v0, a, t: ";
-	cin >> v0 >> a >> t;
-	float v = v0 + a * t;
+	float v0, a;// van toc ban dau va gia toc
+	unsigned int t;//thoi gian xe chay
+	cout << " Nhap gia tri van toc ban dau v0 = ";
+	cin >> v0;
+	cout << " Nhap gia tri gia toc a = ";
+	cin >> a;
+	cout << " Nhap thoi gian t = ";
+	cin >> t;
+	float v = v0 + a * t;//van toc cua xe
 	cout << "Van toc cua xe = " << v << endl;		
 }
 
